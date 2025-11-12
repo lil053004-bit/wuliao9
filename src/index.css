@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'HYYaKuHeiW';
+    src: local('Noto Sans JP'), local('Hiragino Sans');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Adobe Heiti Std';
+    src: local('Hiragino Sans'), local('Yu Gothic');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply bg-gradient-to-b from-white to-light-blue text-gray-800 min-h-screen;
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #3b82f6 #dbeafe;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #dbeafe;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 4px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: #1e3a8a;
+  }
+
+  body[data-modal-open] header,
+  body[data-modal-open] > div > header {
+    display: none !important;
+  }
+}
