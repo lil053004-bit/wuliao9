@@ -264,7 +264,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-1 text-gray-300">
                   <Phone className="w-3 h-3" />
-                  <span>080-3376-0625</span>
+                  <span>03-5524-1500</span>
                 </li>
                 <li className="text-gray-400 text-xs">
                   受付時間: 平日 9:00-18:00
@@ -279,7 +279,7 @@ export default function Footer() {
                 サービス情報
               </h4>
               <ul className="space-y-2 text-xs sm:text-sm text-gray-300">
-                <li>株式会社結禾テクノロジーズ</li>
+                <li>株式会社メッセ</li>
                 <li>AI株式診断サービス</li>
                 <li>リアルタイム株価情報</li>
                 <li>テクニカル分析</li>
@@ -334,7 +334,7 @@ export default function Footer() {
           {/* Copyright Section */}
           <div className="border-t border-gray-700 pt-4 text-center">
             <p className="text-xs sm:text-sm text-gray-400 mb-2 font-medium">
-              &copy; {currentYear} 栫式会社結禾テクノロジーズ. All rights reserved.
+              &copy; {currentYear} 株式会社メッセ. All rights reserved.
             </p>
             <p className="text-[10px] sm:text-xs text-gray-500 leading-relaxed max-w-3xl mx-auto">
               当サイトで提供される情報は投資勧誘を目的としたものではありません。

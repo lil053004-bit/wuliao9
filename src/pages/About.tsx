@@ -142,23 +142,23 @@ export default function About() {
                 <dl className="space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名</dt>
-                    <dd className="text-gray-700">株式会社結禾テクノロジーズ</dd>
+                    <dd className="text-gray-700">株式会社メッセ</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
-                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">運営責任者</dt>
-                    <dd className="text-gray-700">永田治史</dd>
+                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">担当者</dt>
+                    <dd className="text-gray-700">井上 左奈恵</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">所在地</dt>
-                    <dd className="text-gray-700">東京都渋谷区神南1-12-4 神南ビル6F</dd>
+                    <dd className="text-gray-700">東京都中央区京橋3丁目9-2 宝国ビル3F</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">電話番号</dt>
-                    <dd className="text-gray-700">080-3376-0625</dd>
+                    <dd className="text-gray-700">03-5524-1500</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">メールアドレス</dt>
-                    <dd className="text-gray-700">ahuang2025123123@gmail.com</dd>
+                    <dd className="text-gray-700">gonzalezbettyuwxdc4870@gmail.com</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">事業内容</dt>
