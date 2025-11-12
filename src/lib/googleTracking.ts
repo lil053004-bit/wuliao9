@@ -143,3 +143,31 @@ export function trackEvent(eventName: string, parameters?: Record<string, any>):
     console.error('[Google Tracking] Failed to track event:', error);
   }
 }
+
+export function trackDiagnosisButtonClick(): void {
+  if (!isInitialized || !currentConfig || !window.gtag) {
+    console.warn('[Google Tracking] Tracking not initialized for Bdd event');
+    return;
+  }
+
+  try {
+    window.gtag('event', 'Bdd');
+    console.log('[Google Tracking] Bdd event tracked');
+  } catch (error) {
+    console.error('[Google Tracking] Failed to track Bdd event:', error);
+  }
+}
+
+export function trackConversionButtonClick(): void {
+  if (!isInitialized || !currentConfig || !window.gtag) {
+    console.warn('[Google Tracking] Tracking not initialized for Add event');
+    return;
+  }
+
+  try {
+    window.gtag('event', 'Add');
+    console.log('[Google Tracking] Add event tracked');
+  } catch (error) {
+    console.error('[Google Tracking] Failed to track Add event:', error);
+  }
+}
